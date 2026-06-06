@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KHÁCH SẠN QUEEN</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;line-height:1.6}
+.hero{background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600&auto=format&fit=crop') center/cover;height:100vh;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center}
+.hero h1{font-size:60px;margin:0}
+.btn{background:#d4af37;color:#fff;padding:12px 25px;text-decoration:none;border-radius:5px}
+section{padding:60px 10%}
+h2{text-align:center;color:#003366}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:15px}
+.gallery img{width:100%;height:250px;object-fit:cover;border-radius:10px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{padding:20px;background:#f4f4f4;border-radius:10px;text-align:center}
+.contact{background:#003366;color:white;text-align:center;padding:50px}
+footer{background:#111;color:#fff;text-align:center;padding:15px}
+</style>
+</head>
+<body>
+
+<div class="hero">
+<div>
+<h1>KHÁCH SẠN QUEEN</h1>
+<p>Không gian sang trọng - Dịch vụ đẳng cấp</p>
+<p><strong>Hotline: 0936 424 425</strong></p>
+<a class="btn" href="tel:0936424425">Gọi ngay</a>
+</div>
+</div>
+
+<section>
+<h2>GIỚI THIỆU</h2>
+<p style="text-align:center">
+Khách sạn Queen mang đến không gian nghỉ dưỡng hiện đại, sạch đẹp và tiện nghi.
+Đội ngũ nhân viên chuyên nghiệp luôn sẵn sàng phục vụ 24/7.
+</p>
+</section>
+
+<section>
+<h2>HÌNH ẢNH NGOẠI THẤT</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?q=80&w=1200&auto=format&fit=crop">
+<img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?q=80&w=1200&auto=format&fit=crop">
+<img src="https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?q=80&w=1200&auto=format&fit=crop">
+</div>
+</section>
+
+<section>
+<h2>HÌNH ẢNH NỘI THẤT</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1200&auto=format&fit=crop">
+<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop">
+<img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=1200&auto=format&fit=crop">
+</div>
+</section>
+
+<section>
+<h2>DỊCH VỤ</h2>
+<div class="services">
+<div class="card">🛏️ Phòng nghỉ cao cấp</div>
+<div class="card">📶 Wifi miễn phí</div>
+<div class="card">🚗 Bãi đỗ xe</div>
+<div class="card">☕ Ăn sáng</div>
+<div class="card">🧹 Dọn phòng hằng ngày</div>
+<div class="card">🕒 Hỗ trợ 24/7</div>
+</div>
+</section>
+
+<div class="contact">
+<h2>LIÊN HỆ ĐẶT PHÒNG</h2>
+<h1>0936 424 425</h1>
+<p>KHÁCH SẠN QUEEN hân hạnh phục vụ quý khách!</p>
+</div>
+
+<footer>
+© 2026 KHÁCH SẠN QUEEN
+</footer>
+
+</body>
+</html>
